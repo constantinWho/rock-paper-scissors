@@ -1,17 +1,30 @@
+
 body {
-    
-    padding: 0;
-    margin: 0;
-    background: linear-gradient(to right, skyblue, violet);
+    background-color: #1f2d3b;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(36, 18, 28, 0.856);
     text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.score-box{
+    padding: 50px;
+    margin: 70px 200px;
+    display: inline-block;
+    border: 3px solid #020203;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #667575;
 
-h6, h4, h5 {
-    font-size: xx-large;
 }
-
-h6 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 100;
+#game-name{
+    position: absolute;
+    padding: -50px;
+    margin: -100px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #fff;
+}
+#round-number {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -60px;
+    color: rgb(134, 106, 106);
 }
