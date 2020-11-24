@@ -6,25 +6,59 @@ body {
     text-align: center;
 }
 .score-box{
-    padding: 50px;
-    margin: 70px 200px;
     display: inline-block;
+    width: 400px;
+    height: 600px;
+    margin-top: 50px;
     border: 3px solid #020203;
     border-radius: 15px;
     text-align: center;
     background-color: #667575;
+}
+h1 {
+    color: rgba(3, 3, 3, 0.863);
+    font-size: 35px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 150px;
+}
+h3 {
+    font-size: 40px;
+}
+.player-img {
+    position: absolute;
+    left: 13%;
+    top: 25%;
+}
+.player-options {
+    left: 4%;
+    top: 40%;
+    position: absolute;
+    border: 1px solid #020203;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #201f1f;
+}
 
+.option{
+    padding: 15px;
 }
-#game-name{
-    position: absolute;
-    padding: -50px;
-    margin: -100px;
-    font-family: 'Carrois Gothic SC', sans-serif;
-    color: #fff;
+.option:hover {
+    background-color: rgba(36, 18, 28, 0.5) ;
+    border-radius: 5px;
 }
-#round-number {
+.computer-options {
+    right: 4%;
+    top: 40%;
     position: absolute;
-    margin-top: 50px;
-    margin-left: -60px;
-    color: rgb(134, 106, 106);
+    border: 1px solid #020203;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #201f1f;
+}
+.computer-img {
+    position: absolute;
+    right: 13%;
+    top: 25%;
 }
