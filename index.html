@@ -7,30 +7,33 @@
     <link rel="stylesheet" href="./game.css">
 </head>
 <body>
-    <div class="player">
-        <img class="player-img" src="img/player.png" alt="player" width="100px">
-        <div class="player-options">
-            <img class="option" src="img/rock.png" alt="Rock">
-            <img class="option" src="img/paper.png" alt="Paper">
-            <img class="option" src="img/scissors.png" alt="scissors">
+    <div class="container">
+        <div class="p">
+            <img class="p-img" src="img/player.png" alt="p" width="100px">
+            <div class="p-options">
+                <img id="rock" class="p-option" src="img/rock.png" alt="Rock">
+                <img id="paper" class="p-option" src="img/paper.png" alt="Paper">
+                <img id="scissors" class="p-option" src="img/scissors.png" alt="scissors">
+            </div>
         </div>
-    </div>
-    <div class="score-box">
-        <h1>Rock Paper Scissors</h1>
-        <h2>0:0</h2>
-        <h3>Round 1</h3>
-    </div>
-    <div>
-        <img class="computer-img" src="img/computer.png" alt="computer" width="100px">
-        <div class="computer-options">
-            <img class="option" src="img/rock.png" alt="Rock">
-            <img class="option" src="img/paper.png" alt="Paper">
-            <img class="option" src="img/scissors.png" alt="scissors">
+        <div class="score-box">
+            <h1>Rock Paper Scissors</h1>
+            <h2 id="score">0:0</h2>
+            <h3 id="round">Round 1</h3>
+        </div>
+        <div class="c">
+            <img class="c-img" src="img/computer.png" alt="c" width="100px">
+            <div class="c-options">
+                <img id="rock"class="c-option" src="img/rock.png" alt="Rock">
+                <img id="paper"class="c-option" src="img/paper.png" alt="Paper">
+                <img id="scissors"class="c-option" src="img/scissors.png" alt="scissors">
+            </div>
         </div>
     </div>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
     </style>
+    <script src="game.js"></script>
 </body>
 </html>
